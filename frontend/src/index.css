@@ -1,0 +1,59 @@
+:root {
+  --base-color: #FFFCF8;
+  --base-color-0-5: rgba(248, 241, 234, 0.5);
+  --light-color: #F8F1EA;
+  --beige-color: #cbb29f54;
+  --light-grey-color: #B8B2AA;
+  --dark-grey-color: #716D69;
+  --light-black-color: #302C29;
+  --light-black-color-0-25: rgba(48, 44, 41, 0.25);
+  --dark-black-color: #1D1B19;
+  --pastel-red-color: #AC5656;
+  --light-red-color: #6B292A;
+  --red-color: #5A0900;
+  --vine-red-color: #2D0500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  background-color: var(--base-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+

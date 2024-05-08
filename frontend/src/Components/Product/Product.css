@@ -1,0 +1,31 @@
+.product {
+    width: 80%;
+
+}
+
+.product img {
+    width: 270px;
+    height: 370px;
+}
+
+.info {
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.name-like {
+    justify-content: space-between;
+}
+
+.name-like h3 {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--light-black-color);
+}
+
+
+.price {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--light-black-color);
+}

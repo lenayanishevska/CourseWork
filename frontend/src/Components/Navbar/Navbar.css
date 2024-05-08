@@ -1,0 +1,58 @@
+.full-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding: 10px 3%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    background: var(--light-color);
+}
+
+.nav-left {
+    align-items: center;
+    gap: 35px;
+    color: var(--dark-black-color);
+}
+
+.nav-left a {
+    color: var(--dark-black-color);
+}
+
+.nav-left h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+.nav-left hr {
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: var(--red-color);
+}
+
+.nav-middle h1{
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--red-color);
+    letter-spacing: 10px;
+    font-size: 32px;
+    text-shadow: 3px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.nav-right {
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-right img {
+    width: 30px;
+}

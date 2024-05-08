@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 37%;
+    border: 2px solid var(--light-grey-color);
+    border-radius: 20px;
+    padding: 15px;
+    background-color: var(--base-color);
+    color: var(--light-red-color);
+    box-shadow: 4px 4px 6px var(--light-black-color-0-25);;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}

@@ -1,0 +1,13 @@
+.upper-navbar {
+    background: var(--dark-black-color);
+    color: var(--base-color);
+    padding: 5px 0px;
+
+}
+
+.upper-navbar h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 16px;
+}

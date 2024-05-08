@@ -1,0 +1,36 @@
+.slider-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.slider {
+    margin: 20px;
+    width: 92%;
+}
+.category-item{
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    background: rgba(204, 179, 160, 0.25);
+    height: 50px;
+}
+
+.category-item h3 {
+    color: var(--dark-black-color);
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.category-item h3:hover {
+    color: var(--pastel-red-color);
+}
+
+.category-item hr {
+    border: none;
+    width: 50%;
+    height: 3px;
+    border-radius: 10px;
+    background: var(--red-color);
+}

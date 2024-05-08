@@ -1,0 +1,155 @@
+.dashboard {
+    display: flex;
+    width: 1200px;
+    padding: 10px;
+    align-items: center;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.dashboard-header h2 {
+    font-size: 28px;
+    font-weight: 200;
+    color: var(--red-color);
+}
+
+.stat-container {
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.stat {
+    width: 25%;
+    height: 120px;
+    border: 1px solid rgba(184, 178, 170, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.stat h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--pastel-red-color);
+    margin: 5px;
+}
+
+.orders-count {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--light-black-color);
+}
+
+.chart-header {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--dark-grey-color);
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--dark-grey-color);
+}
+
+.expenses-incomes {
+    width: 100%;
+    padding: 10px;
+    gap: 10%;
+}
+
+.chart {
+    width: 60%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.chart canvas {
+    width: 400px;
+    height: 350px;
+}
+
+.expences-container {
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid rgba(184, 178, 170, 0.6);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.expences-container span {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--dark-grey-color);
+}
+
+.statistics-header {
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.statistics-header h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--dark-grey-color);
+    margin: 5px;
+}
+
+.expences-container button {
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    border: none;
+    border-radius: 5px;
+    color: var(--base-color);
+    background-color: rgba(30, 30, 30, 0.8);
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.expences-container button:hover {
+    border: 2px solid rgba(53, 52, 52, 0.9);
+    background-color: rgba(53, 52, 52, 0.4);
+    color: var(--light-black-color);
+}
+
+.orders-charts {
+    width: 100%;
+}
+
+.order-chart-container {
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.brand-chart {
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

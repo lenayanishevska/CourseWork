@@ -1,0 +1,9 @@
+.menu {
+    position: fixed;  /* Change from relative to fixed */
+    top: 80px;  /* Position it 50px from the top */
+    left: 0;  /* Position it at the left edge of the viewport */
+    width: 100%;  /* Make it cover the entire width */
+    height: 400px;
+    background-color: var(--light-color);
+    z-index: 10;
+}

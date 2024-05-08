@@ -1,0 +1,25 @@
+.hero-img{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.hero-img button {
+    width: 220px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background: var(--base-color-0-5);
+    color: var(--dark-black-color);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    transition: transform 0.3s ease;
+}
+
+.hero-img button:hover {
+    border: 2px solid var(--red-color);
+    transform: scale(1.1);
+}

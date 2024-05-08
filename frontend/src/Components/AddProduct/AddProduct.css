@@ -1,0 +1,117 @@
+.add-product {
+    display: flex;
+    width: 1200px;
+    padding: 10px;
+    align-items: center;
+}
+
+.add-product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 200;
+    color: var(--red-color);
+}
+
+.add-product-container {
+    width: 90%;
+    padding: 10px;
+    gap: 5%;
+}
+
+.main-product-info {
+    width: 70%;
+    height: 610px;
+    padding: 10px 20px;
+    border: 1px solid rgba(184, 178, 170, 0.6);
+    border-radius: 10px;
+    gap: 5%;
+}
+
+.additional-product-info {
+    width: 30%;
+    gap: 20px;
+}
+
+.add-product-sizes {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid rgba(184, 178, 170, 0.6);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.add-product-attributes{
+    height: 250px;
+    padding: 20px;
+    border: 1px solid rgba(184, 178, 170, 0.6);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.add-sizes-button {
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    border: none;
+    border-radius: 5px;
+    color: var(--base-color);
+    background-color: rgba(30, 30, 30, 0.658);
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.add-sizes-button:hover {
+    border: 2px solid rgba(53, 52, 52, 0.9);
+    background-color: rgba(53, 52, 52, 0.4);
+    color: var(--light-black-color);
+}
+
+.file-upload {
+    width: 100%;
+    gap: 10px;
+}
+
+.main-info-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark-grey-color);
+}
+
+.add-product-info {
+    width: 100%;
+    gap: 10px;
+}
+
+.add-product-info-header{
+    font-size: 16px;
+    font-weight: 400;
+    color: #AC5656;
+}
+
+.add-categories-brand {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.add-product-select {
+    gap: 10px;
+}
+
+.add-price-SKU {
+    width: 100%;
+    gap: 10%;
+}
+
+.add-product-input{
+    flex: 1;
+    gap: 10px;
+}

@@ -1,0 +1,144 @@
+.profile {
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.profile-user-header {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+
+.profile-user-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+.profile-details {
+    width: 50%;
+    padding: 20px 40px;
+    background: rgba(248, 241, 234, 0.8);
+    border: 2px solid var(--vine-red-color);
+    gap: 15px;
+}
+
+.user-info {
+    gap: 10px;
+}
+
+.user-info span {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-grey-color);
+}
+
+.profile-details hr {
+    border: 1px solid rgba(184, 178, 170, 0.6);
+}
+
+.details-info {
+    gap: 5px;
+}
+
+.details-info span {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--pastel-red-color);
+}
+
+.address-info span {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--pastel-red-color);
+}
+
+.address-info p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--light-black-color);
+}
+
+.details-info p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--light-black-color);
+}
+
+.user-address {
+    gap: 10px;
+}
+
+.user-address-header {
+    justify-content: space-between;
+}
+
+.user-address-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-grey-color);
+}
+
+.user-address-header span {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--dark-black-color);
+    text-decoration: underline;
+}
+
+.user-address-header span:hover {
+    color: var(--pastel-red-color);
+}
+
+.profile-buttons {
+    justify-content: center;
+    gap: 5%;
+}
+
+.profile-buttons button {
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    border: none;
+    border-radius: 10px;
+    color: var(--base-color);
+    background-color: rgba(30, 30, 30, 0.8);
+    cursor: pointer;
+}
+
+.profile-buttons a {
+    width: 30%;
+}
+
+.admin-button {
+    width: 100%;
+}
+
+.lodout-button {
+    width: 30%;
+}
+
+.profile-buttons button:hover {
+    border: 2px solid rgba(53, 52, 52, 0.9);
+    background-color: rgba(53, 52, 52, 0.4);
+    color: var(--light-black-color);
+}
+
+.user-adsress-info h3{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--light-black-color);
+}
+
+.user_orders {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
